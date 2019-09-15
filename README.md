@@ -25,7 +25,7 @@ Marketplace : https://rinkeby.opensea.io/assets/unidentified-contract-253
   $npm install
 ```
 
-3. Edit truffle-config.js add mnemonic and Infura Endpoint
+3. Edit **truffle-config.js** add mnemonic and Infura Endpoint
 
 ```javascript
   mnemonic: "YOUR-SEED-WORDS-FROM-METAMASK-ACCOUNT"
@@ -48,10 +48,10 @@ Marketplace : https://rinkeby.opensea.io/assets/unidentified-contract-253
 ```
 
 # Built With
-*Ethereum - Ethereum is a decentralized platform that runs smart contracts
-*Truffle Framework - Truffle is the most popular development framework for Ethereum with a mission to make your life a whole lot easier.
-*truffle-hdwallet-provider - HD Wallet-enabled Web3 provider. Use it to sign transactions for addresses derived from a 12-word mnemonic.
-*NODE + NPM
+* Ethereum - Ethereum is a decentralized platform that runs smart contracts
+* Truffle Framework - Truffle is the most popular development framework for Ethereum with a mission to make your life a whole lot easier.
+* truffle-hdwallet-provider - HD Wallet-enabled Web3 provider. Use it to sign transactions for addresses derived from a 12-word mnemonic.
+* NODE + NPM
 
 
 
