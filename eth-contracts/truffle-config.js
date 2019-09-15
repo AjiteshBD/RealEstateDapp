@@ -25,7 +25,7 @@
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 
 var HDWalletProvider = require('truffle-hdwallet-provider');
-var mnemonic = 'rude isolate window chunk monitor fashion into amount chuckle arrange green secret';
+var mnemonic = 'META-MASK- SEED-PHASE';
 
 module.exports = {
   /**
@@ -51,8 +51,8 @@ module.exports = {
       network_id: "*",       // Any network (default: none)
      },
      rinkeby: {
-      provider: function() { 
-        return new HDWalletProvider(mnemonic, 'https://rinkeby.infura.io/v3/d70fe3c263c84f79b2f3ee592e1e77d0') 
+      provider: ()=> { 
+        return new HDWalletProvider(mnemonic, 'INFURA_KEY') 
       },
       network_id: 4,
       gas: 4500000,

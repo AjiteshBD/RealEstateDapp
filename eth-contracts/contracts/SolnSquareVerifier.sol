@@ -4,6 +4,9 @@ pragma solidity >=0.4.21 <0.6.0;
 import "./Verifier.sol";
 import "./ERC721Mintable.sol";
 
+// contract SquareVerifier is Verifier {
+
+// }
 
 // TODO define another contract named SolnSquareVerifier that inherits from your ERC721Mintable class
 contract SolnSquareVerifier is ERC721Mintable{
